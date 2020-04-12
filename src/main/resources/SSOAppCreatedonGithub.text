@@ -1,0 +1,13 @@
+https://github.com/settings/applications/1265155
+
+we need to register a app under GitHub for Autherization
+account->setting->Developer Setting-> register a application.-> set Application Name, client App Home URL, and AuterizationCallbackUrl
+
+
+localhost:8088/ -client app
+it will send the client ID to git hub
+Git hub will send a token to this client app
+
+client app hass to send the toke to gitHub server spo it can authenticate and validate the git credentisl for cleint app
+
+and Github server will autherize user informartion to client app
